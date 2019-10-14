@@ -21,7 +21,7 @@ we'll write an R chunck that loads the tidyverse package and reads in the Gapmin
 CMD+OPT+i quick keys to insert new r chunck
 
 ```r
-library(tidyverse)
+library(tidyverse, quietly = TRUE)
 ```
 
 ```
